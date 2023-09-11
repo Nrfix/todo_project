@@ -6,12 +6,13 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () =>
-      import('./pages/pages.module').then((babibu) => babibu.PagesModule),
+      import('./pages/pages.module').then((m) => m.PagesModule),
   },
+
   {
     path: '**',
     loadChildren: () =>
-      import('./errors/errors.module').then((babibu) => babibu.ErrorsModule),
+      import('./errors/errors.module').then((m) => m.ErrorsModule),
   },
 ];
 @NgModule({

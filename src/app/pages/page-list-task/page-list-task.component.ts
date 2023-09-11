@@ -12,9 +12,9 @@ export class PageListTaskComponent {
 
   constructor(private service: TodoService) {
     this.service.getData().subscribe((data) => {
-      console.log('page list task service appele');
-      console.log(data);
-      console.log(typeof this.tasks); //On a bien un undefined
+      // console.log('page list task service appele');
+      // console.log(data);
+      // console.log(typeof this.tasks); //On a bien un undefined
       this.tasks = data;
     });
   }

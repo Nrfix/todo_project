@@ -14,6 +14,91 @@
       "state": "EN COURS",
       "description": "tatata",
       "id": 3
+    },
+    {
+      "state": "FAIT",
+      "description": "Ranger le bureau",
+      "id": 4
+    },
+    {
+      "state": "A FAIRE",
+      "description": "Trouver un trèfle à quatre feuilles",
+      "id": 5
+    },
+    {
+      "state": "EN COURS",
+      "description": "Marcher sur les mains",
+      "id": 6
+    },
+    {
+      "state": "FAIT",
+      "description": "Faire une sieste de 5 minutes",
+      "id": 7
+    },
+    {
+      "state": "A FAIRE",
+      "description": "Apprendre à parler le pingouin",
+      "id": 8
+    },
+    {
+      "state": "EN COURS",
+      "description": "Faire un bonhomme de neige en été",
+      "id": 9
+    },
+    {
+      "state": "FAIT",
+      "description": "Appeler un pingouin 'Monsieur Pingouin'",
+      "id": 10
+    },
+    {
+      "state": "A FAIRE",
+      "description": "Danser la danse des pingouins",
+      "id": 11
+    },
+    {
+      "state": "EN COURS",
+      "description": "Jouer à cache-cache avec le vent",
+      "id": 12
+    },
+    {
+      "state": "FAIT",
+      "description": "Trouver le trésor au bout de l'arc-en-ciel",
+      "id": 13
+    },
+    {
+      "state": "A FAIRE",
+      "description": "Convaincre les licornes de venir au pique-nique",
+      "id": 14
+    },
+    {
+      "state": "EN COURS",
+      "description": "Faire des bulles avec de l'eau en poudre",
+      "id": 15
+    },
+    {
+      "state": "FAIT",
+      "description": "Voler avec des ailes en carton",
+      "id": 16
+    },
+    {
+      "state": "A FAIRE",
+      "description": "Résoudre un mystère de chambre fermée sans porte",
+      "id": 17
+    },
+    {
+      "state": "EN COURS",
+      "description": "Faire une randonnée en montgolfière",
+      "id": 18
+    },
+    {
+      "state": "FAIT",
+      "description": "Apprendre à parler la langue des dauphins",
+      "id": 19
+    },
+    {
+      "state": "A FAIRE",
+      "description": "Trouver Bigfoot et lui demander s'il existe vraiment",
+      "id": 20
     }
   ]
 }

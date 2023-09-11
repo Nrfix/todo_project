@@ -11,14 +11,15 @@
 <!-- *ngIf="tasks" -->
 <!--  -->
 <!-- [task]="task" -->
-<div>
-  <div class="container">
-    <ul class="list-group">
-      <li class="list-group-item" *ngFor="let task of tasks">
-        <app-task [task]="task"></app-task>
-      </li>
-    </ul>
-  </div>
+
+<div class="container">
+  <app-input></app-input>
+
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let task of tasks">
+      <app-task [task]="task"></app-task>
+    </li>
+  </ul>
 </div>
 
 <!-- <div class="container" *ngIf="!tasks">

@@ -1,1 +1,12 @@
-<p>input works!</p>
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon2">Nouvelle tâche :</span>
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Entrer description de la nouvelle tâche ici"
+    aria-label="Entrer description de la nouvelle tâche ici"
+    aria-describedby="basic-addon2"
+    [(ngModel)]="description"
+    (keyup.enter)="onEnterPressed()"
+  />
+</div>
