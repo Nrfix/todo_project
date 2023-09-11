@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "state": "FAIT",
+      "description": "Babibu",
+      "id": 1
+    },
+    {
+      "state": "A FAIRE",
+      "description": "bidoncho",
+      "id": 2
+    },
+    {
+      "state": "EN COURS",
+      "description": "tatata",
+      "id": 3
+    }
+  ]
+}
